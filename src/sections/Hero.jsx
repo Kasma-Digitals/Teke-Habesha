@@ -1,5 +1,5 @@
 import tilet from '../assets/tilet.png'
-import Button from './Button'
+import Button from '../components/Button'
 import mainHabesha from '../assets/main-habesha.png'
 import homeHabesha from '../assets/home-habesha-txt.png'
 import locationIcon from '../assets/location.png'

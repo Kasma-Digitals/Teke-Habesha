@@ -1,59 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root{
+:root {
     background-color: #FFF4E9;
     scroll-behavior: smooth;
     overflow-x: hidden;
 }
 
-.text-color-brown{
+
+body {
+    font-family: 'Jost', sans-serif;
+}
+
+
+.text-color-brown {
     color: #201408;
 }
-.bg-light-brown{
+
+.bg-light-brown {
     background-color: #E6CFBA;
 }
-.bg-dark-brown{
+
+.bg-dark-brown {
     background-color: #201408;
 }
-.btn-bg-brown{
+
+.btn-bg-brown {
     background-image: url("./assets/Rectangle54.png");
     background-position: center;
     background-size: cover;
 }
-.btn-bg-orange{
+
+.btn-bg-orange {
     background-image: url("./assets/Rectangle55.png");
     background-position: center;
     background-size: cover;
 }
+
 .orange__gradient {
     background: linear-gradient(90deg, #d47923 0%, #FF7B00 100%);
     filter: blur(110px);
 }
+
 .brown__gradient {
     background: linear-gradient(90deg, #201408 0%, #201408 100%);
     filter: blur(110px);
-  }
-.navlinks{
+}
+
+.navlinks {
     color: white;
     font-size: 16px;
     width: 100%;
-    padding: 1.4rem 1.7rem 1.4rem ;
+    padding: 1.4rem 1.7rem;
     border-bottom: 1px solid rgba(255, 255, 255, 0.241);
 }
 
-/* Define a custom style for the placeholder text */
+
 .custom-input::placeholder {
     color: #201408; 
     opacity: 0.66;
-  }
-  
+}
 
-.xxs{}
+.xxs {}
 
-@media (max-width:330px) {
-    .xxs{
+@media (max-width: 330px) {
+    .xxs {
         width: 150px;
     }
 }
